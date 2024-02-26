@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Author Name -->
+    <TextView
+        android:id="@+id/authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:layout_gravity="start|bottom" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:layout_gravity="end|right" />
+
+    <!-- Likes Count -->
+    <TextView
+        android:id="@+id/likesCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Likes: 100"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:layout_gravity="end|bottom" />
+
+</FrameLayout>
