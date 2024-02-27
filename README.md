@@ -31,6 +31,12 @@ Welcome to the Demo Android Application built with **Kotlin** and following the 
   <img src="screenshots/details_page.png" alt="Detail Page" width="250"/>
 </p>
 
+## Package Structure:
+
+<p align="center">
+  <img src="screenshots/package-structure.png" alt="Package-Structure" width="750"/>
+</p>
+
 ## Recording:
 
 ![Alt Text](recording/app_recording.gif)
